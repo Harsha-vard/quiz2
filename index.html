@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SOA & XML Retro Quiz</title>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="flex items-center justify-center min-h-screen p-4">
+  <div class="w-full max-w-3xl">
+    <div class="quiz-box p-6" id="quiz-box">
+      <div class="flex justify-between items-center mb-4">
+        <h1 class="text-lg">SOA & Web Services Quiz</h1>
+        <span id="timer">Time: 300</span>
+      </div>
+      <div class="bg-green-800 w-full rounded mb-4">
+        <div id="progress" class="timer-bar w-full"></div>
+      </div>
+      <div id="question-box"></div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
